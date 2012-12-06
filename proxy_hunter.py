@@ -25,7 +25,6 @@ class ProxyHunter:
 		while self.httpsproxies: self.httpsproxies.pop()
 		self.proxybuf=dao.getAll()
 		self.proxybuf.add('202.117.54.246:808')
-		self.proxybuf.add('192.168.1.21:808')
 		self.proxybuf.add('202.117.54.249:808')
 		self.proxybuf.add('202.117.16.191:808')
 		self.proxybuf.add('202.117.54.254:3128')
